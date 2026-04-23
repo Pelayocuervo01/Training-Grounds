@@ -1,10 +1,16 @@
+import { Routes, Route} from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 
 export default function App() {
   return (
     <MainLayout>
-      <h1 className="text-4x1 text-white">Texto de Ejemplo</h1>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </MainLayout>
   );
 }

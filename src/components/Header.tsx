@@ -1,21 +1,22 @@
+import { Link } from "react-router-dom";
+
 export default function Header() {
     return(
-        <header className="bg-slate-900 borde-b border-slate-800 px-6 py-4">
-            <nav className= "flex justify-beetwen items-center">
-                <h1 className="text-x1 font bold text-cyan-400">
+         <header className="bg-slate-900 border-b border-white/20 px-6 py-4 w-full">
+            <nav className="max-w-6xl mx-auto flex justify-between items-center">
+                <h1 className="text-xl font-bold text-cyan-400">
                     Training Grounds
                 </h1>
                 <div className="flex gap-6 text-slate-300">
-                    <a className="hover:text-white" href="/">
+                    <Link to ="/" className="hover:text-white">
                         Home
-                    </a>
-                    <a className="hover:text-white" href="/projects">
+                    </Link>
+                    <Link to="/projects" className="hover:text-white" >
                         Projects
-                    </a>
+                    </Link>
 
                 </div>
             </nav>
         </header>
-
     )
 }
