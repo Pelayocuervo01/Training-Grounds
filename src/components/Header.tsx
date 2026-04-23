@@ -6,7 +6,7 @@ export default function Header() {
 
     const getRandomElement = (arr: any[]) =>
         arr.length ? arr[Math.floor(Math.random() * arr.length)] : undefined
-    const [pokemon] = useState(getRandomElement(Pokemon))
+    const [pokemon, setPokemon] = useState(getRandomElement(Pokemon))
 
     const isShiny = Math.floor(Math.random() * 10) === 1;
 
@@ -20,7 +20,7 @@ export default function Header() {
                 <h1 className="text-xl font-bold text-zinc-400">
                     Training Grounds
                 </h1>
-                <img src={ url } className="absolute left-1/2 -translate-x-1/2 w-14 h-13" />
+                <img onClick={()=> setPokemon(getRandomElement(Pokemon))} src={ url } className="absolute left-1/2 -translate-x-1/2 w-14 h-13 cursor-pointer" />
                 <div className="flex gap-6 text-slate-300">
                     <Link to ="/" className="hover:text-white">
                         Home
