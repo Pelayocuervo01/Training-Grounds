@@ -9,6 +9,7 @@ export default function MainLayout({ children }: {children: React.ReactNode}){
                 {/* Columna izquierda */}
                 <aside className="bg-neutral-800 border border-white/10 rounded-xl p-4">
                     <h2 className="text-white font-bold mb-3">Links</h2>
+                    <LinkCard name="GitHub Repo" link="https://github.com/Pelayocuervo01/Training-Grounds"/>
                     <LinkCard name="Claude" link="https://claude.ai/settings/usage"/>
                     <LinkCard name="Bg-color Tailwind" link="https://tailscan.com/tailwind/backgrounds/background-color-class"/>
                 </aside>
