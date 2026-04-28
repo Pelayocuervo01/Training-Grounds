@@ -28,6 +28,7 @@ export default function Projects() {
             <div className="grid grid-cols-3 gap-4">
                 <ProjectCard name="Increase Button" to="/projects/increaseButton" description="Botón con contador." />
                 <ProjectCard name="Es un cuadrado" to="/projects/EsUnCuadrado" description="Comprueba un input." />
+                <ProjectCard name="Password Check" to="/projects/CheckPassword" description="Analiza si un String sigue x parámetros." />
             </div>
         </div>
     );

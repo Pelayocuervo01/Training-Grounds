@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import IncreaseButton from "./pages/IncreaseButton/IncreaseButton"
 import EsUnCuadrado from "./pages/EsUnCuadrado/EsUnCuadrado";
-
+import CheckPassword from "./pages/CheckPassword/CheckPassword";
 
 export default function App() {
   return (
@@ -14,6 +14,7 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/IncreaseButton" element={<IncreaseButton />} />
         <Route path="/projects/EsUnCuadrado" element={<EsUnCuadrado />} />
+        <Route path="/projects/CheckPassword" element={<CheckPassword />} />
       </Routes>
     </MainLayout>
   );
