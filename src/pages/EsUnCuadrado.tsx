@@ -1,4 +1,4 @@
-import { CalcularCuadrado } from "./CalcularCuadrado";
+import { CalcularCuadrado } from "../utils/CalcularCuadrado";
 import { useState } from "react";
 
 export default function EsUnCuadrado(){

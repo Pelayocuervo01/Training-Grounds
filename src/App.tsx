@@ -2,9 +2,9 @@ import { Routes, Route} from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
-import IncreaseButton from "./pages/IncreaseButton/IncreaseButton"
-import EsUnCuadrado from "./pages/EsUnCuadrado/EsUnCuadrado";
-import CheckPassword from "./pages/CheckPassword/CheckPassword";
+import IncreaseButton from "./pages/IncreaseButton"
+import EsUnCuadrado from "./pages/EsUnCuadrado";
+import CheckPassword from "./pages/CheckPassword";
 
 export default function App() {
   return (

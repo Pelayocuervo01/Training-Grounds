@@ -1,4 +1,4 @@
-import { validation } from "./Validation";
+import { validation } from "../utils/Validation";
 import { useState } from "react";
 
 const labels = ["", "Muy débil", "Débil", "Media", "Fuerte", "Muy fuerte"]

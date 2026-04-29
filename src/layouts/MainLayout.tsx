@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "./Header";
 import LinkCard from "./LinksLayout";
 import DocsCard from "./DocsLayout"
 
