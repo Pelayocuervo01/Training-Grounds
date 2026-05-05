@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import IncreaseButton from "./pages/IncreaseButton"
 import EsUnCuadrado from "./pages/EsUnCuadrado";
 import CheckPassword from "./pages/CheckPassword";
+import GeneratePassword from "./pages/GeneratePassword";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/projects/IncreaseButton" element={<IncreaseButton />} />
         <Route path="/projects/EsUnCuadrado" element={<EsUnCuadrado />} />
         <Route path="/projects/CheckPassword" element={<CheckPassword />} />
+        <Route path="/projects/GeneratePassword" element={<GeneratePassword />} />
       </Routes>
     </MainLayout>
   );

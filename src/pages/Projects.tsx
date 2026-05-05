@@ -11,6 +11,8 @@ export default function Projects() {
                 <ProjectCards name="Increase Button" to="/projects/IncreaseButton" description="Botón con contador." />
                 <ProjectCards name="Es un cuadrado" to="/projects/EsUnCuadrado" description="Comprueba un input." />
                 <ProjectCards name="Password Check" to="/projects/CheckPassword" description="Analiza si un String sigue x parámetros." />
+                <ProjectCards name="Generate Password" to="/projects/GeneratePassword" description="Genera un password que pase la prueba de CheckPassword." />
+
             </div>
         </div>
     );
